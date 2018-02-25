@@ -1,0 +1,14 @@
+{
+    "name": "sync-dut-file",
+    "version": "1.0.0",
+    "description": "Upload file if any file changed in ./dut-root via serial port or telnet",
+    "main": "app.js",
+    "author": "liqingjht",
+    "license": "MIT",
+    "dependencies": {
+        "readline-sync": "^1.4.7",
+        "serialport": "^4.0.7",
+        "telnet-client": "^0.15.0",
+        "tftp": "^0.1.2"
+    }
+}
